@@ -16,33 +16,45 @@ Here are some ideas to get you started:
 -->
  
  
-## 🚀 Skills & Tools  
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+<!-- 🖤 Stylish Animated Banner -->
+![Welcome Banner](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F70C9C&width=600&lines=Hey+There!+👋+I'm+Akarshana;Python+is+my+Superpower;Currently+leveling+up+in+JavaScript+%26+React;Turning+Ideas+into+Code+🚀)
 
 ---
 
-## 📊 Skill Proficiency  
+## 🛠 Tech Stack  
 
-![Skills Chart](https://quickchart.io/chart?c={type:'radar',data:{labels:['Python','JavaScript','React','C++','Java','HTML/CSS'],datasets:[{label:'Proficiency %',data:[100,50,50,30,30,80],backgroundColor:'rgba(255,99,132,0.2)',borderColor:'rgb(255,99,132)',pointBackgroundColor:'rgb(255,99,132)'}]},options:{scale:{ticks:{beginAtZero:true,max:100}}}})
+💎 **Core Expertise**  
+![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+
+🚀 **Currently Building Skills In**  
+![JavaScript](https://img.shields.io/badge/JavaScript-50%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![React](https://img.shields.io/badge/React-50%25-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+
+📚 **Learned Before**  
+![C++](https://img.shields.io/badge/C%2B%2B-30%25-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)  
+![Java](https://img.shields.io/badge/Java-30%25-007396?style=for-the-badge&logo=java&logoColor=white)  
+![HTML5](https://img.shields.io/badge/HTML5-80%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-80%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 
 ---
 
-## 📈 GitHub Stats  
+## 📊 My Coding Skill Chart  
+![Skill Chart](https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Python','JavaScript','React','C++','Java','HTML/CSS'],datasets:[{data:[100,50,50,30,30,80],backgroundColor:['%233776AB','%23F7DF1E','%2361DAFB','%2300599C','%23E76F00','%23E34F26']}]} ,options:{plugins:{legend:{labels:{color:'white'}}}}})
 
+---
+
+## 📈 GitHub Stats & Activity  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshana06&layout=compact&theme=radical)  
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&theme=react-dark)  
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&theme=react-dark)  
 
 ---
 
-## 📌 Featured Projects  
+## 🎯 Featured Projects  
 
-- [🐍 Nagini-Dash](https://github.com/Akarshana06/nagini-dash) — A fun Snake Game built with **React** + **Node.js**  
-- [📖 Story App](https://github.com/Akarshana06/story-app) — Full CRUD app with upvotes & filtering features  
+| Project | Description | Tech |
+|---------|-------------|------|
+| [🐍 Nagini-Dash](https://github.com/Akarshana06/nagini-dash) | Fun **React + Node.js** snake game | React, Node.js |
+| [📖 Story App](https://github.com/Akarshana06/story-app) | Full CRUD app with upvotes & filters | React, Node.js |
+
+---
