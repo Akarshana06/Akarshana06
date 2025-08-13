@@ -16,7 +16,6 @@ Here are some ideas to get you started:
 -->
  
  
-<!-- 🖤 Stylish Animated Banner -->
 ![Welcome Banner](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F70C9C&width=600&lines=Hey+There!+👋+I'm+Akarshana;Python+is+my+Superpower;Currently+leveling+up+in+JavaScript+%26+React;Turning+Ideas+into+Code+🚀)
 
 ---
@@ -38,12 +37,19 @@ Here are some ideas to get you started:
 
 ---
 
-## 📊 My Coding Skill Chart  
-![Skill Chart](https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Python','JavaScript','React','C++','Java','HTML/CSS'],datasets:[{data:[100,50,50,30,30,80],backgroundColor:['%233776AB','%23F7DF1E','%2361DAFB','%2300599C','%23E76F00','%23E34F26']}]} ,options:{plugins:{legend:{labels:{color:'white'}}}}})
+## 📊 My Coding Skills  
+
+**Python** ![██████████](https://progress-bar.dev/100/?title=&color=3776AB)  
+**JavaScript** ![█████.....](https://progress-bar.dev/50/?title=&color=F7DF1E)  
+**React** ![█████.....](https://progress-bar.dev/50/?title=&color=61DAFB)  
+**C++** ![███.......](https://progress-bar.dev/30/?title=&color=00599C)  
+**Java** ![███.......](https://progress-bar.dev/30/?title=&color=E76F00)  
+**HTML/CSS** ![████████.](https://progress-bar.dev/80/?title=&color=E34F26)  
 
 ---
 
 ## 📈 GitHub Stats & Activity  
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshana06&layout=compact&theme=radical)  
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&theme=react-dark)  
@@ -57,4 +63,4 @@ Here are some ideas to get you started:
 | [🐍 Nagini-Dash](https://github.com/Akarshana06/nagini-dash) | Fun **React + Node.js** snake game | React, Node.js |
 | [📖 Story App](https://github.com/Akarshana06/story-app) | Full CRUD app with upvotes & filters | React, Node.js |
 
----
+
