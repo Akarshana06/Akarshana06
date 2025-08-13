@@ -16,46 +16,69 @@ Here are some ideas to get you started:
 -->
  
  
-## 💻 Tech Stack
+<!-- Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:F8D847&height=250&section=header&text=Hey%20I'm%20Akarshana!&fontSize=45&fontColor=fff&animation=twinkling" />
+</p>
 
-**Core Expertise**  
-![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-**Currently Growing Skills**  
-![JavaScript](https://img.shields.io/badge/JavaScript-50%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-50%25-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-**Previously Learned**  
-![C++](https://img.shields.io/badge/C++-30%25-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-30%25-E76F00?style=for-the-badge&logo=java&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML/CSS-80%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+<p align="center">
+  🚀 Full-Stack Dev | 🐍 Python Enthusiast | 🎯 Lifelong Learner
+</p>
 
 ---
 
-## 📊 GitHub Stats & Activity
+## 🚀 About Me
+💻 Passionate about building projects that mix **creativity** with **logic**.  
+📚 Strong in **Python**, improving my **JavaScript** & **React** skills.  
+🎯 My goal: Build apps people actually use.  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true)
+---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshana06&layout=compact&theme=radical&hide_border=true)
+## 🛠 My Skill Progress
+| Skill        | Progress |
+|--------------|----------|
+| Python 🐍    | ![100%](https://progress-bar.dev/100/?title=100%&color=3776AB) |
+| JavaScript ⚡ | ![50%](https://progress-bar.dev/50/?title=50%&color=F7DF1E) |
+| React ⚛️     | ![50%](https://progress-bar.dev/50/?title=50%&color=61DAFB) |
+| C++ 💻       | ![30%](https://progress-bar.dev/30/?title=30%&color=00599C) |
+| Java ☕       | ![30%](https://progress-bar.dev/30/?title=30%&color=E76F00) |
+| HTML/CSS 🎨  | ![80%](https://progress-bar.dev/80/?title=80%&color=E34F26) |
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Akarshana06&theme=radical&hide_border=true)
+---
+
+## 📊 GitHub Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical&hide_border=true" height="160" />
+  <img src="https://streak-stats.demolab.com?user=Akarshana06&theme=radical&hide_border=true" height="160" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F8D847&hide_border=true" />
+</p>
 
 ---
 
 ## 🏆 Featured Projects
-
-- [Nagini-Dash](https://github.com/Akarshana06/nagini-dash) — 🎮 React + Node.js Snake Game  
-- [Story App](https://github.com/Akarshana06/story-app) — 📝 CRUD app with upvotes & filters  
-
----
-
-## 📈 Contribution Graph
-
-![Akarshana's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F8D847&hide_border=true)
+<p align="center">
+  <a href="https://github.com/Akarshana06/nagini-dash">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshana06&repo=nagini-dash&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/Akarshana06/story-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshana06&repo=story-app&theme=radical&hide_border=true" />
+  </a>
+</p>
 
 ---
 
 ## 🐍 Watch My Contributions Grow
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Akarshana06/Akarshana06/output/github-contribution-grid-snake-dark.svg" />
+</p>
 
-![GitHub Snake](https://github.com/Akarshana06/Akarshana06/blob/output/github-contribution-grid-snake-dark.svg)
+---
 
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:F8D847&height=120&section=footer"/>
+</p>
