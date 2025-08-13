@@ -16,51 +16,46 @@ Here are some ideas to get you started:
 -->
  
  
-![Welcome Banner](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=F70C9C&width=600&lines=Hey+There!+👋+I'm+Akarshana;Python+is+my+Superpower;Currently+leveling+up+in+JavaScript+%26+React;Turning+Ideas+into+Code+🚀)
+## 💻 Tech Stack
+
+**Core Expertise**  
+![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Currently Growing Skills**  
+![JavaScript](https://img.shields.io/badge/JavaScript-50%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-50%25-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+**Previously Learned**  
+![C++](https://img.shields.io/badge/C++-30%25-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-30%25-E76F00?style=for-the-badge&logo=java&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML/CSS-80%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ---
 
-## 🛠 Tech Stack  
+## 📊 GitHub Stats & Activity
 
-💎 **Core Expertise**  
-![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true)
 
-🚀 **Currently Building Skills In**  
-![JavaScript](https://img.shields.io/badge/JavaScript-50%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![React](https://img.shields.io/badge/React-50%25-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshana06&layout=compact&theme=radical&hide_border=true)
 
-📚 **Learned Before**  
-![C++](https://img.shields.io/badge/C%2B%2B-30%25-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-30%25-007396?style=for-the-badge&logo=java&logoColor=white)  
-![HTML5](https://img.shields.io/badge/HTML5-80%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-80%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![GitHub Streak](https://streak-stats.demolab.com?user=Akarshana06&theme=radical&hide_border=true)
 
 ---
 
-## 📊 My Coding Skills  
+## 🏆 Featured Projects
 
-**Python** ![██████████](https://progress-bar.dev/100/?title=&color=3776AB)  
-**JavaScript** ![█████.....](https://progress-bar.dev/50/?title=&color=F7DF1E)  
-**React** ![█████.....](https://progress-bar.dev/50/?title=&color=61DAFB)  
-**C++** ![███.......](https://progress-bar.dev/30/?title=&color=00599C)  
-**Java** ![███.......](https://progress-bar.dev/30/?title=&color=E76F00)  
-**HTML/CSS** ![████████.](https://progress-bar.dev/80/?title=&color=E34F26)  
+- [Nagini-Dash](https://github.com/Akarshana06/nagini-dash) — 🎮 React + Node.js Snake Game  
+- [Story App](https://github.com/Akarshana06/story-app) — 📝 CRUD app with upvotes & filters  
 
 ---
 
-## 📈 GitHub Stats & Activity  
+## 📈 Contribution Graph
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Akarshana06&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshana06&layout=compact&theme=radical)  
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&theme=react-dark)  
+![Akarshana's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Akarshana06&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F8D847&hide_border=true)
 
 ---
 
-## 🎯 Featured Projects  
+## 🐍 Watch My Contributions Grow
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [🐍 Nagini-Dash](https://github.com/Akarshana06/nagini-dash) | Fun **React + Node.js** snake game | React, Node.js |
-| [📖 Story App](https://github.com/Akarshana06/story-app) | Full CRUD app with upvotes & filters | React, Node.js |
-
+![GitHub Snake](https://github.com/Akarshana06/Akarshana06/blob/output/github-contribution-grid-snake-dark.svg)
 
