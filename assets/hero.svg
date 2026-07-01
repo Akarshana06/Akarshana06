@@ -1,1 +1,236 @@
+<svg width="1920" height="700" viewBox="0 0 1920 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bgGlow" cx="72%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#0a1230"/>
+      <stop offset="55%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#030510"/>
+    </radialGradient>
 
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#4F9DFF"/>
+    </linearGradient>
+
+    <linearGradient id="purpleCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
+    </linearGradient>
+
+    <radialGradient id="reactorCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8fdff"/>
+      <stop offset="35%" stop-color="#00E5FF"/>
+      <stop offset="70%" stop-color="#0a4a5e" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#12203f" stroke-width="1"/>
+    </pattern>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: 'Courier New', 'Consolas', monospace; }
+      .sans { font-family: 'Segoe UI', Arial, sans-serif; }
+
+      .label { fill: #00E5FF; letter-spacing: 4px; }
+      .muted { fill: #94A3B8; }
+      .white { fill: #FFFFFF; }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+      @keyframes pulseSlow {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-260px); opacity: 0; }
+        10% { opacity: 0.5; }
+        90% { opacity: 0.5; }
+        100% { transform: translateY(260px); opacity: 0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      @keyframes dotFade {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes floatY {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+
+      .ring-outer { transform-origin: 1442px 350px; animation: spin 22s linear infinite; }
+      .ring-mid   { transform-origin: 1442px 350px; animation: spinRev 16s linear infinite; }
+      .ring-tick  { transform-origin: 1442px 350px; animation: spin 40s linear infinite; }
+      .core-pulse { animation: pulse 3s ease-in-out infinite; }
+      .glow-pulse { animation: pulseSlow 4s ease-in-out infinite; }
+      .status-dot { animation: blink 2s ease-in-out infinite; }
+      .bg-dot { animation: dotFade 5s ease-in-out infinite; }
+      .card-float { animation: floatY 6s ease-in-out infinite; }
+      .scan-line { animation: scan 7s linear infinite; }
+    </style>
+
+    <clipPath id="frameClip">
+      <rect x="0" y="0" width="1920" height="700" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <!-- Background -->
+    <rect width="1920" height="700" fill="url(#bgGlow)"/>
+    <rect width="1920" height="700" fill="url(#grid)" opacity="0.55"/>
+
+    <!-- Blueprint corner brackets -->
+    <g stroke="#1c2b4f" stroke-width="1.5" fill="none" opacity="0.8">
+      <path d="M20,20 L20,70 M20,20 L70,20"/>
+      <path d="M1900,20 L1900,70 M1900,20 L1850,20"/>
+      <path d="M20,680 L20,630 M20,680 L70,680"/>
+      <path d="M1900,680 L1900,630 M1900,680 L1850,680"/>
+    </g>
+
+    <!-- Faint HUD circles scattered -->
+    <circle cx="120" cy="580" r="90" stroke="#12345c" stroke-width="1" fill="none" opacity="0.5"/>
+    <circle cx="120" cy="580" r="60" stroke="#12345c" stroke-width="1" fill="none" opacity="0.5"/>
+    <circle cx="1780" cy="90" r="70" stroke="#12345c" stroke-width="1" fill="none" opacity="0.4"/>
+
+    <!-- Twinkling dots -->
+    <g fill="#00E5FF">
+      <circle class="bg-dot" cx="260" cy="90" r="2" style="animation-delay:0s"/>
+      <circle class="bg-dot" cx="640" cy="60" r="2" style="animation-delay:0.6s"/>
+      <circle class="bg-dot" cx="90" cy="300" r="2" style="animation-delay:1.2s"/>
+      <circle class="bg-dot" cx="900" cy="140" r="2" style="animation-delay:1.8s"/>
+      <circle class="bg-dot" cx="1750" cy="480" r="2" style="animation-delay:0.3s"/>
+      <circle class="bg-dot" cx="1600" cy="600" r="2" style="animation-delay:2.4s"/>
+      <circle class="bg-dot" cx="1120" cy="620" r="2" style="animation-delay:1s"/>
+      <circle class="bg-dot" cx="1980" cy="200" r="2" style="animation-delay:1.6s"/>
+    </g>
+
+    <!-- Vertical divider -->
+    <line x1="960" y1="80" x2="960" y2="620" stroke="#16223f" stroke-width="1" opacity="0.7"/>
+
+    <!-- ============ LEFT SIDE ============ -->
+    <g class="sans">
+      <!-- small label -->
+      <text x="90" y="150" class="mono label" font-size="16" font-weight="700">DEVELOPER COMMAND CENTER</text>
+      <rect x="90" y="164" width="60" height="2" fill="url(#cyanBlue)"/>
+
+      <!-- Name -->
+      <text x="88" y="270" class="white" font-size="108" font-weight="800" letter-spacing="2" filter="url(#softGlow)">AKARSHANA</text>
+
+      <!-- Role -->
+      <text x="90" y="320" fill="url(#cyanBlue)" font-size="30" font-weight="700" letter-spacing="3">FULL STACK PRODUCT ENGINEER</text>
+
+      <!-- Tagline -->
+      <text x="90" y="368" class="white" font-size="24" font-weight="500">Building scalable digital products</text>
+      <text x="90" y="400" class="white" font-size="24" font-weight="500">that solve real-world problems.</text>
+
+      <!-- Mission statement -->
+      <text x="90" y="450" class="muted" font-size="17">Focused on creating production-ready e-commerce platforms with clean</text>
+      <text x="90" y="476" class="muted" font-size="17">architecture, great user experience and scalable backend systems.</text>
+
+      <!-- Buttons -->
+      <g transform="translate(90,510)">
+        <rect width="240" height="58" rx="10" fill="url(#cyanBlue)"/>
+        <text x="120" y="36" text-anchor="middle" fill="#031018" font-size="19" font-weight="700">🚀 View My Projects</text>
+      </g>
+
+      <g transform="translate(350,510)">
+        <rect width="220" height="58" rx="10" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+        <text x="110" y="36" text-anchor="middle" fill="#00E5FF" font-size="19" font-weight="700">📦 Explore GitHub</text>
+      </g>
+    </g>
+
+    <!-- ============ RIGHT SIDE ============ -->
+    <g class="mono">
+
+      <!-- Arc Reactor -->
+      <g>
+        <circle cx="1442" cy="350" r="128" fill="url(#reactorCore)" class="core-pulse" filter="url(#strongGlow)"/>
+        <circle cx="1442" cy="350" r="150" stroke="url(#cyanBlue)" stroke-width="2" fill="none" class="ring-mid" stroke-dasharray="10 14" opacity="0.85"/>
+        <circle cx="1442" cy="350" r="175" stroke="#4F9DFF" stroke-width="1.4" fill="none" class="ring-outer" stroke-dasharray="2 10" opacity="0.6"/>
+        <circle cx="1442" cy="350" r="196" stroke="#1c2b4f" stroke-width="1" fill="none" class="ring-tick" stroke-dasharray="1 22"/>
+        <circle cx="1442" cy="350" r="80" stroke="#e8fdff" stroke-width="2" fill="#050816" opacity="0.9"/>
+        <text x="1442" y="340" text-anchor="middle" fill="#94A3B8" font-size="12" letter-spacing="3">CORE SYSTEM</text>
+        <text x="1442" y="365" text-anchor="middle" fill="#e8fdff" font-size="22" font-weight="700" letter-spacing="3" class="core-pulse">ONLINE</text>
+      </g>
+
+      <!-- Status Card -->
+      <g class="card-float" transform="translate(1000,110)">
+        <rect width="230" height="86" rx="10" fill="#0a1230" stroke="#1c2b4f" stroke-width="1"/>
+        <circle cx="24" cy="24" r="5" fill="#00E5FF" class="status-dot"/>
+        <text x="42" y="29" fill="#94A3B8" font-size="12" letter-spacing="2">SYSTEM STATUS</text>
+        <text x="20" y="62" fill="#00E5FF" font-size="24" font-weight="700" letter-spacing="2">ONLINE</text>
+      </g>
+
+      <!-- Current Mission -->
+      <g class="card-float" style="animation-delay:1s" transform="translate(1000,214)">
+        <rect width="230" height="86" rx="10" fill="#0a1230" stroke="#1c2b4f" stroke-width="1"/>
+        <text x="20" y="29" fill="#94A3B8" font-size="12" letter-spacing="2">CURRENT PROJECT</text>
+        <text x="20" y="62" fill="#FFFFFF" font-size="24" font-weight="700" letter-spacing="2">ENDURA</text>
+      </g>
+
+      <!-- Primary Stack -->
+      <g class="card-float" style="animation-delay:2s" transform="translate(1660,110)">
+        <rect width="230" height="120" rx="10" fill="#0a1230" stroke="#1c2b4f" stroke-width="1"/>
+        <text x="20" y="29" fill="#94A3B8" font-size="12" letter-spacing="2">PRIMARY STACK</text>
+        <text x="20" y="58" fill="#FFFFFF" font-size="17" font-weight="600">React</text>
+        <text x="20" y="84" fill="#FFFFFF" font-size="17" font-weight="600">Node.js</text>
+        <text x="20" y="110" fill="#FFFFFF" font-size="17" font-weight="600">MongoDB</text>
+      </g>
+
+      <!-- Current Focus -->
+      <g class="card-float" style="animation-delay:0.5s" transform="translate(1660,552)">
+        <rect width="230" height="132" rx="10" fill="#0a1230" stroke="#1c2b4f" stroke-width="1"/>
+        <text x="20" y="29" fill="#94A3B8" font-size="12" letter-spacing="2">CURRENT FOCUS</text>
+        <text x="20" y="58" fill="#7C3AED" font-size="17" font-weight="600">AI</text>
+        <text x="20" y="84" fill="#7C3AED" font-size="17" font-weight="600">System Design</text>
+        <text x="20" y="110" fill="#7C3AED" font-size="17" font-weight="600">Backend Architecture</text>
+      </g>
+
+      <!-- scan line inside reactor area -->
+      <g clip-path="url(#frameClip)">
+        <line x1="1300" y1="350" x2="1584" y2="350" stroke="#00E5FF" stroke-width="1" class="scan-line" opacity="0.5"/>
+      </g>
+    </g>
+
+    <!-- ============ BOTTOM STRIP ============ -->
+    <g class="mono">
+      <line x1="90" y1="628" x2="1830" y2="628" stroke="url(#purpleCyan)" stroke-width="1.5" opacity="0.7"/>
+      <text x="90" y="666" fill="#94A3B8" font-size="16" letter-spacing="1">
+        <tspan fill="#00E5FF" font-weight="700">PROJECTS</tspan><tspan> : 03</tspan>
+        <tspan dx="60" fill="#00E5FF" font-weight="700">SPECIALIZATION</tspan><tspan> : MERN</tspan>
+        <tspan dx="60" fill="#00E5FF" font-weight="700">STATUS</tspan><tspan> : AVAILABLE</tspan>
+        <tspan dx="60" fill="#00E5FF" font-weight="700">LOCATION</tspan><tspan> : INDIA</tspan>
+      </text>
+    </g>
+
+  </g>
+</svg>
