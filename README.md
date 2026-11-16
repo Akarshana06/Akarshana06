@@ -1,48 +1,63 @@
 <div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Akarshana, full-stack developer in training at Kalvium, Coimbatore" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-dark.svg" alt="Akarshana, full-stack developer in training" width="100%">
 </picture>
-</div>
+
+<br><br>
+
+I'm a full-stack developer in training at Kalvium. I like clean interfaces, small details, and code that's easy to read.<br>
+Learning in public and shipping a little every day.
 
 <br>
 
-### about
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-dark.svg" alt="Stack map" width="100%">
+</picture>
 
-I'm a full-stack developer in training at Kalvium. I like clean interfaces, small details, and code that's easy to read. Currently learning in public and shipping a little every day.
+<br>
 
-### freelance — [OnetoZ Technologies](https://onetoztechnologies.com/)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects-light.svg">
+  <img src="./assets/projects-dark.svg" alt="Freelance projects under OnetoZ Technologies" width="100%">
+</picture>
 
-| project | repository |
-| :-- | :-- |
-| **Endura** | [Akarshana06/Endura](https://github.com/Akarshana06/Endura) |
-| **Little Essentials** | [OnetoZ/Little-Essentials](https://github.com/OnetoZ/Little-Essentials) |
-| **Breezy** | [OnetoZ/Breezy-website](https://github.com/OnetoZ/Breezy-website) |
-| **OnetoZ Technologies** | [OnetoZ/OnetoZ-Technologies](https://github.com/OnetoZ/OnetoZ-Technologies) |
+<sub>
+<a href="https://github.com/Akarshana06/Endura">Endura</a> &nbsp;·&nbsp;
+<a href="https://github.com/OnetoZ/Little-Essentials">Little Essentials</a> &nbsp;·&nbsp;
+<a href="https://github.com/OnetoZ/Breezy-website">Breezy</a> &nbsp;·&nbsp;
+<a href="https://github.com/OnetoZ/OnetoZ-Technologies">OnetoZ Technologies</a>
+</sub>
 
-### stack
+<br><br>
 
-`Python` *advanced* &nbsp; `C++` *intermediate* &nbsp; `JavaScript` &nbsp; `HTML` &nbsp; `CSS` &nbsp; `React` &nbsp; `Node.js` &nbsp; `Express.js` &nbsp; `Shopify` &nbsp; `Razorpay`
-
----
-
-### contributions
-
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akarshana06/Akarshana06/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akarshana06/Akarshana06/output/github-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Akarshana06/Akarshana06/output/github-snake-dark.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Akarshana06/Akarshana06/output/github-snake-dark.svg" width="100%">
 </picture>
-</div>
 
 <br>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/connect-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/connect-light.svg">
+  <img src="./assets/connect-dark.svg" alt="Connect" width="100%">
+</picture>
+
 <sub>
 <a href="https://www.linkedin.com/in/s-akarshana-3460b4357/">linkedin</a> &nbsp;·&nbsp;
 <a href="https://onetoztechnologies.com/">onetoztechnologies.com</a> &nbsp;·&nbsp;
 <a href="https://github.com/Akarshana06?tab=repositories">repositories</a>
 </sub>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=Akarshana06&color=lightgrey&style=flat-square&label=views" alt="views" />
+
 </div>
